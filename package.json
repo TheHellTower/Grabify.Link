@@ -1,0 +1,34 @@
+{
+  "name": "grabify-link",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "full": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheHellTower/Grabify.Link"
+  },
+  "author": "TheHellTower",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/TheHellTower/Grabify.Link/issues"
+  },
+  "homepage": "https://github.com/TheHellTower/Grabify.Link#readme",
+  "dependencies": {
+    "@next/font": "13.1.1",
+    "bcrypt": "^5.1.0",
+    "cookies": "^0.8.0",
+    "fs": "^0.0.1-security",
+    "mongodb": "^4.13.0",
+    "next": "13.1.1",
+    "next-auth": "^4.18.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "validator": "^13.7.0"
+  }
+}
